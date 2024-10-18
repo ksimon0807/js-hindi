@@ -59,3 +59,27 @@ i)               Object                                object
 ii)              Array                                  object
 iii)             Function                            function(object) */
 
+// ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+// Stack (Primitive), Heap (Non-primitive)
+
+let myYoutubeName = "hiteshchaudhary.com";
+
+let anotherName = myYoutubeName
+anotherName = "bitch"
+
+console.log(anotherName);
+console.log(myYoutubeName);
+
+let userOne = {
+    email : "uaer@mnnit.ac.in",
+    upi : "454454544@upi"
+}
+
+let userTwo = userOne
+
+userTwo.email = "bitchAss@mnnit.ac.in"
+
+console.log(userOne.email);
+
