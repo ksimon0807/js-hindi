@@ -4,10 +4,10 @@ if(true){
     let a = 10
     const b = 20
     // c = 30                
-      console.log("Inner : ", a);
+      // console.log("Inner : ", a);
     function add(){
         let a = 56
-        console.log("Innermost : ",a);
+        // console.log("Innermost : ",a);
         
     }
       
@@ -19,6 +19,18 @@ if(true){
 // }
 
 
-console.log(a);
+// console.log(a);
 // console.log(b);
 // console.log(c);
+
+function one(){
+  const username = "hitesh"
+
+  function two(){
+    const website = "youtube"
+    console.log(username);
+    
+  }
+  console.log(website);
+  
+}
