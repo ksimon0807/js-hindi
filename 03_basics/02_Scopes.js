@@ -31,6 +31,39 @@ function one(){
     console.log(username);
     
   }
-  console.log(website);
-  
+  // console.log(website);
+  two()
 }
+// one()
+
+if (true) {
+  const username = "hitesh"
+  if (username === "hitesh") {
+      const website = " youtube"
+      console.log(username + website);
+  }
+  // console.log(website);
+}
+
+// console.log(username);
+
+
+// ++++++++++++++++++ interesting ++++++++++++++++++
+
+
+console.log(addone(5))
+
+function addone(num){
+    return num + 1
+}
+
+addone(5);
+
+
+
+addTwo(5)
+const addTwo = function(num){       // expression
+    return num + 2                   // hoisting ---> declaration se pehle
+}
+
+addTwo(5)
