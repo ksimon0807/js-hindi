@@ -2,7 +2,7 @@
 
 
 // const values = coding.forEach( (item) => {
-//     //console.log(item);
+//     // console.log(item);
 //     return item
 // } )
 
@@ -14,15 +14,17 @@ const myNums = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 //     return num > 4
 // } )
 
-const newNums = []
+// console.log(newNums);
 
-myNums.forEach( (num) => {
-    if (num > 4) {
-        newNums.push(num)
-    }
-} )
+// const new1Nums = []
 
-console.log(newNums);
+// myNums.forEach( (num) => {
+//     if (num > 4) {
+//         new1Nums.push(num)
+//     }
+// } )
+
+// console.log(new1Nums);
 
 const books = [
     { title: 'Book One', genre: 'Fiction', publish: 1981, edition: 2004 },

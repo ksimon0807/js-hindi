@@ -26,7 +26,7 @@ map.set('IN', "Inkkkdia")
 // console.log(map);
 
 for (const key of map) {
-    // console.log(key);
+    console.log(key);
     
 }
 
